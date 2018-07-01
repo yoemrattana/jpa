@@ -1,0 +1,453 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900|Battambang:400,700|Moul|Noto+Sans:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Battambang:400,700);
+@import url(https://fonts.googleapis.com/css?family=Moul);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+}
+html{
+	background:#DEEAF3;
+	/*width: 1024px;*/
+	margin: 0 auto;
+}
+body{
+	margin:0;
+}
+nav ul {
+    font-family: 'Noto Sans';
+    font-weight: 700; 
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #aaa;
+    text-transform: uppercase;  
+    list-style-type: none;
+    letter-spacing:  .1em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	text-decoration: none;
+    background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+}
+
+
+
+
+
+nav li {
+    float: left;
+	border-right:1px solid #bbb;
+
+}
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a, .dropbtnjpa {
+    display: inline-block;
+    color: #4067B1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        
+}
+
+nav li a:hover, .dropdownjpa:hover .dropbtn {
+    background-color: #4067B1;
+    color: white;
+	text-decoration: none;
+}
+
+nav li.dropdownjpa {
+    display: inline-block;
+}
+
+.dropdownjpa-content {
+    display: none;
+	font-size: 12px;
+    position: absolute;
+    background-color: #DEEAF3;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdownjpa-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownjpa-content a:hover {
+    background-color: #4067B1;
+    color: white;
+
+}
+
+.active{
+    background-color: #4067B1;
+    color: white;
+    border-top:1px solid #bbb;
+}
+
+.dropdownjpa:hover .dropdownjpa-content {
+    display: block;
+}
+
+/*header:before {
+    background-image: url('../images/JPA-Logo_sml.jpg');
+    background-repeat: no-repeat;
+    content: ' ';
+    position: absolute;
+    width: 160px;
+    left: 0;
+    height: 124px;
+    top: 0;
+    !* bottom: 0; *!
+}*/
+.header-img {
+    content: ' ';
+    position: absolute;
+    width: 160px;
+    left: 0;
+    height: 124px;
+    top: 0;
+}
+
+header{
+
+    height: 124px;
+    /* line-height: 124px; */
+    color: #fff;
+    background-color: #4067B1;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Cinzel+Decorative';
+    font-weight: 700;
+    font-size: 48px;
+    text-shadow: 2px 2px 8px #444444;
+    text-transform: uppercase;
+    margin: 0;
+    /* background-image: url(../images/JPA-Logo_sml.jpg); */
+    /* background-repeat: no-repeat; */
+    z-index: 10000;
+    position: relative;
+    padding-left: 180px;
+    height: 124px;
+    display: table;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.header-title {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 110%;
+    text-align: left;
+}
+
+
+nav{
+    z-index: 10000;
+}
+
+
+/* ACCORDIAN DESIGN - BOOTSTRAP ADDITION */
+
+    .form-inline .form-group { margin-right:10px; }
+    .well-primary {
+    color: rgb(255, 255, 255);
+    background-color: #0000ff;
+    border-color: rgb(53, 126, 189);
+    }
+    .glyphicon { margin-right:5px; }
+
+
+
+                /*ACORDIAN */
+.form-inline .form-group { margin-right:10px; }
+.well-primary {
+color: rgb(255, 255, 255);
+background-color: rgb(66, 139, 202);
+border-color: rgb(53, 126, 189);
+}
+.glyphicon { margin-right:5px; }
+
+.accord-centre{
+  margin: 10px auto 0px  auto;
+}
+
+.bold{
+  font-weight: bold;
+  color: #00ccff;
+}
+
+.addressheading{
+    margin-left:40px;}
+
+.address1{
+    margin-left:60px;}
+    
+    .headshot{
+    width:200px;
+}
+    .headshottitle{
+    position: relative;
+    top: -90px;
+    height:100px;
+    float: right;
+    margin: 0px 0px -100px 0px;
+   
+}
+    .headshotSearch{
+    position: relative;
+    top: 0px;
+    height:100px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+   
+}
+
+.content{
+    margin: 0 0 0 22px;
+}
+
+
+
+.panel-default{
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.submitattach{
+    float:right;
+    margin-right: 10px;
+}
+
+
+.heathViewBtn{
+    float:right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.subheadOnBlue{
+    margin-top: 8px;
+}
+
+.pageheading{
+    color: #4067B1;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 30px;
+ /*   text-shadow: 1px 1px 3px #aaa;   */
+    text-transform: uppercase;  
+    margin: 0 0 0 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.searchStudent{
+    color: #4067B1;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 20px;
+ /*   text-shadow: 1px 1px 3px #aaa;   */
+    text-transform: uppercase;  
+    margin: 0 0 0 105px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.indentPic{
+        margin: 30px 0 0 20px;
+}
+.panel{
+    font-family: 'Noto Sans';
+
+}
+.studentSelect{
+    float:left;
+
+    margin: 30px 0 0 20px;
+}
+.spaceOne{
+    margin:35px 0 0 0 ;
+}
+
+.searchChoice{
+    float:left;
+    margin: 50px 18px 0 0;
+}
+
+.boldPullDown{
+    font-weight: 700;
+}
+
+.searchButtonOptions{
+    
+}
+.healthLabelColor{
+      color: #00ccff;
+}
+.input-group{
+    margin-bottom: 15px;
+}
+
+.attachmentHealthHyper{
+    color:#ff0000;
+    text-decoration: underline !important;
+}
+.lineSpaceBase{
+    margin-bottom: 7px;
+    text-decoration: underline;
+}
+.boldWriting{
+    font-weight: 700;
+}
+.colComp{
+    color: orange;
+}
+.colTodo{
+    color: red;
+}
+.colSent{
+    color: green;
+}
+.schoolLink{
+    color: #fff;
+}
+.footerJATS{
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color: #4067B1;
+    font-family: 'Noto Sans';
+    font-weight: 400; 
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+
+}
+.homeText{
+    margin-top:5px;
+}
+
+.classOfImage {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+    width: 80px;
+}
+
+.classOfImage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.description{
+	font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-left: 18px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  html{
+  	background:#DEEAF3;
+	max-width: 1024px;
+  }
+  header{
+  	max-width: 1024px;
+  	font-size: 45px;
+  }
+  .left-section{
+  	   padding-bottom: 94px;
+  }
+}
+
+@media (max-width: 1025px) {
+	header{
+		font-size: 37px;
+	}
+	.left-section{
+  	   padding-bottom: 130px;
+  	}
+}
+
+@media (max-width: 987px) {
+	.left-section{
+  	   padding-bottom: 140px;
+  	}
+}
+
+@media (max-width: 920px) {
+	.left-section{
+  	   padding-bottom: 185px;
+  	}
+}
+
+@media (max-width: 765px) {
+	.left-section{
+  	   padding-bottom: 14px;
+  	}
+}
+
+@media (max-width: 555px) {
+	header{
+		font-size: 25px;
+	}
+	.left-section{
+  	   padding-bottom: 13px;
+  	}
+}
+
+@media (max-width: 380px) {
+	header{
+		font-size: 20px;
+	}
+	.left-section{
+  	   padding-bottom: 12px;
+  	}
+}
+
+
+/*media query for iphone device*/
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{
+	header{
+		font-size: 19px;
+	}
+
+	.left-section{
+  	   padding-bottom: 13px;
+  	}
+
+}
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{ 
+	header{
+		font-size: 19px;
+	}
+
+	.left-section{
+  	   padding-bottom: 13px;
+  	}
+}

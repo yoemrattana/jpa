@@ -1,0 +1,51 @@
+body{
+    overflow-x: hidden;
+}
+
+.btn-update{
+    margin-top: 14px;
+}
+
+.other-item{
+    padding-top: 10px;
+}
+
+.bottom-space{
+    margin-bottom: 27px;
+}
+
+.img-student{
+    padding: 3px 0 0 0;
+}
+
+.well-form{
+    padding: 20px 20px 50px 20px;
+}
+
+.locale-switch{
+    padding-top: 7px;
+}
+
+.noi-dung{
+    padding: 15px 23px 23px 23px;
+}
+/*html, body {*/
+    /*padding-top: 20px;*/
+/*}*/
+
+[data-role="dynamic-fields"] > .form-inline + .form-inline {
+    margin-top: 0.5em;
+}
+
+[data-role="dynamic-fields"] > .form-inline [data-role="add"] {
+    display: none;
+}
+
+[data-role="dynamic-fields"] > .form-inline:last-child [data-role="add"] {
+    display: inline-block;
+}
+
+[data-role="dynamic-fields"] > .form-inline:last-child [data-role="remove"] {
+    display: none;
+}
+
